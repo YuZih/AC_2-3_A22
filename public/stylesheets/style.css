@@ -1,0 +1,44 @@
+.container {
+  width: 90%;
+  margin: .5rem 3rem;
+}
+
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr repeat(3, 1fr);
+  grid-template-areas: "home . about portfolio contact";
+}
+
+.nav-btn {
+  all: unset;
+  background-color: rgb(194, 192, 192);
+  border-radius: 5px;
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: rgb(83, 83, 83);
+  color: white;
+}
+
+#home {
+  grid-area: home;
+  width: 7rem;
+}
+
+#about {
+  grid-area: about;
+}
+
+#portfolio {
+  grid-area: portfolio;
+}
+
+#contact {
+  grid-area: contact;
+}
