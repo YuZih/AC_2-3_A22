@@ -21,6 +21,7 @@
   cursor: pointer;
 }
 
+.nav-btn--active,
 .nav-btn:hover {
   background-color: rgb(83, 83, 83);
   color: white;
